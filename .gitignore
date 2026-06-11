@@ -1,0 +1,11 @@
+*.pkl
+*.pth
+*.csv
+*.h5
+*.parquet
+features/
+runs_supcon_step1_100/
+runs_supcon_step2_final/
+runs_supcon_step3_eval/
+SVS original files/
+

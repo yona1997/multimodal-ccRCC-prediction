@@ -1,0 +1,58 @@
+{
+  "objective_name": "custom_score",
+  "best_value": 0.7626262626261822,
+  "best_params": {
+    "n_layers": 3,
+    "h1": 512,
+    "h2": 64,
+    "h3": 512,
+    "dropout1": 0.5630113519488746,
+    "dropout2": 0.34701149217620697,
+    "dropout3": 0.20170906968702756,
+    "lr": 1.6913245547160562e-05,
+    "weight_decay": 3.7190395920084656e-08,
+    "batch_size": 8,
+    "noise_std": 0.02,
+    "augment_factor": 8,
+    "num_epochs": 12,
+    "patience": 11
+  },
+  "best_user_attrs": {
+    "best_epoch": 11,
+    "best_threshold": 0.2,
+    "val_acc": 0.7777777777777778,
+    "val_bacc": 0.7777777777776913,
+    "val_auc": 0.7283950617283951,
+    "val_recall_0": 0.8888888888887901,
+    "val_recall_1": 0.6666666666665926,
+    "val_precision_0": 0.7272727272726611,
+    "val_precision_1": 0.8571428571427346,
+    "val_macro_f1": 0.7749999999994195,
+    "val_min_precision": 0.7272727272726611,
+    "val_custom_score": 0.7626262626261822,
+    "confusion": {
+      "tn": 8,
+      "fp": 1,
+      "fn": 3,
+      "tp": 6
+    },
+    "hidden_dims": [
+      512,
+      64,
+      512
+    ],
+    "dropouts": [
+      0.5630113519488746,
+      0.34701149217620697,
+      0.20170906968702756
+    ]
+  },
+  "triplet_cfg": {
+    "lr": 0.0003,
+    "margin": 0.2,
+    "embedding_dim": 256,
+    "dropout": 0.3,
+    "batch_size": 64,
+    "weight_decay": 0.0001
+  }
+}
